@@ -1,8 +1,8 @@
 # ProjectEuler-Task-3
 Largest prime factor
 
-Solution depends on 2 factors (checked internet for some, but mainly):
+What I found - solution mainly depends on the fact The largest prime factor of a number < square root of number, thats' the main issue to limit brute force
 
-1. The largest prime factor of a number = number 
-2. Smallest prime factor couldnt exceed the square root of number.
+Fastest algorithm Euler3_3 , thus broken for square numbers
+
 
