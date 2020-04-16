@@ -1,7 +1,11 @@
 # ProjectEuler-Task-3
 Largest prime factor
 
-What I found - solution mainly depends on the fact The largest prime factor of a number < square root of number, thats' the main issue to limit brute force
+Solutions depend on fundamental theorem of arithmetic,  https://en.wikipedia.org/wiki/Fundamental_theorem_of_arithmetic
+
+We iterate prime numbers, until we find a smallest prime divisor for N
+Find residual multiple of N factors => N / smallest prime factor
+Repeat
 
 Fastest algorithm Euler3_fastest, thus broken for square numbers
 
